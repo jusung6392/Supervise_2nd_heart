@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F4F4F4"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="40dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/idtext"
+                    android:layout_width="310dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/layout_border"
+                    android:drawableLeft="@drawable/join_id"
+                    android:drawableStart="@drawable/join_id"
+                    android:drawablePadding="20dp"
+                    android:hint=" 아이디"
+                    android:padding="3dp"
+                    android:textColor="#000000"
+                    />
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/userPassword"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:drawableLeft="@drawable/join_pw"
+                android:drawableStart="@drawable/join_pw"
+                android:drawablePadding="20dp"
+                android:hint="비밀번호"
+                android:password="true"
+                android:padding="3dp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/userCompany"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:drawableStart="@drawable/join_comp"
+                android:drawableLeft="@drawable/join_comp"
+                android:drawablePadding="20dp"
+                android:hint="거래처명"
+                android:padding="3dp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/editRepresentation"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:hint=" 대표자"
+                android:padding="3dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/join_id"
+                android:drawableLeft="@drawable/join_id"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/editCompanyNum"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:drawableStart="@drawable/join_ad"
+                android:drawableLeft="@drawable/join_ad"
+                android:drawablePadding="20dp"
+                android:hint="사업자 번호"
+                android:padding="3dp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:drawablePadding="20dp"
+                android:hint="전화번호"
+                android:padding="3dp"
+                android:drawableStart="@drawable/join_hp"
+                android:drawableLeft="@drawable/join_hp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/join_email"
+                android:drawableStart="@drawable/join_email"
+                android:hint="E-Mail"
+                android:padding="3dp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/editFax"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:drawablePadding="20dp"
+                android:hint="팩스번호"
+                android:padding="3dp"
+                android:drawableStart="@drawable/join_fax"
+                android:drawableLeft="@drawable/join_fax"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/layout_border"
+                android:drawableStart="@drawable/join_ad"
+                android:drawableLeft="@drawable/join_ad"
+                android:drawablePadding="20dp"
+                android:hint="주소"
+                android:padding="3dp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
